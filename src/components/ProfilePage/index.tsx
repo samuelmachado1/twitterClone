@@ -1,6 +1,15 @@
 import React from 'react';
 
-import { Container, Banner, Avatar, ProfileData, LocationIcon, CakeIcon, Followage } from './styles';
+import {
+    Container,
+    Banner,
+    Avatar,
+    ProfileData,
+    LocationIcon,
+    CakeIcon,
+    Followage,
+    EditButton, 
+} from './styles';
 
 const ProfilePage: React.FC = () => {
   return (
@@ -8,8 +17,9 @@ const ProfilePage: React.FC = () => {
         <Banner>
             <Avatar />
         </Banner>
+
         <ProfileData>
-            {/* <EditButton outlined>Editar Perfile</EditButton> */}
+            <EditButton outlined>Editar Perfil</EditButton>
 
             <h1>Samuel Estrella</h1>
             <h2>@samuelestrelladf</h2>
